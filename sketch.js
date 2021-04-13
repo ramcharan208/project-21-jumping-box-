@@ -17,7 +17,6 @@ function setup(){
 
     canvas = createCanvas(800,600);
 
-    //create 4 different surfaces
 
     disc1 = createSprite(100,580,180,20);
 
@@ -105,10 +104,7 @@ function draw() {
 
 
 
-    //add condition to check if box touching surface and make it box
-
-    text(mouseX+','+mouseY,200,50);
-
+   
     drawSprites();
 
 }
